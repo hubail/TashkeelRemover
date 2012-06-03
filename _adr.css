@@ -1,0 +1,44 @@
+﻿body {
+	margin: 0;
+	text-align: center;
+	background: rgb(238,238,238);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */;
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */;
+	background: -o-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 12+ */;
+	background: -ms-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */;
+	background: radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+div#w {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: small-caps;
+}
+#s, div#r {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	direction: rtl;
+	padding: 10px 5px;
+}
+#s {
+	width: 500px;
+	height: 150px;
+	border: #ccc 1px solid;
+	color: #666;
+}
+div#tr {
+	font-size: 36px;
+}
+div#r {
+	margin-top: 20px;
+	text-shadow: 2px 2px 2px #CCCCCC, 2px 2px 2px #333333;
+}
